@@ -23,9 +23,9 @@ node index.js    # CLI mode
 
 ## API Endpoints
 1. GET /recommendations/:userId
-```
-GET /recommendations/1?page=1&pageSize=5
-```
+   ```
+   GET /recommendations/1?page=1&pageSize=5
+   ```
 2. GET /highvalueusers/:value
    ```
    GET /highvalueusers/500?page=1&pageSize=5
@@ -53,5 +53,6 @@ placeorder <userId> <productId> <quantity>
 export <queryType>
 exit
 ```
+
 
 
